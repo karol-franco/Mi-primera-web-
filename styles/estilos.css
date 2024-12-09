@@ -1,0 +1,147 @@
+*{
+    margin: 0%; /* margen como espacio externo*/
+    padding: 0%; /* margen como espacio externo*/
+}
+body{
+    text-align: center;  /*texto centrado*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+nav{
+    background: rgb(0, 0, 0);  /*color de fondo*/
+    color: rgb(255, 255, 255); /*color de letra*/
+    height: 4em; /*alto*/
+    width: 100%;
+    
+}nav ul li{
+    display: inline-block; /*alinear horizontalmente*/
+    margin-right: 2em;
+    line-height: 4em;   /*alinear verticalmente*/
+
+}
+nav ul li a{
+    color: rgb(255, 255, 255); /*color de fuente*/
+    font-size: 1.3em;  /*tamaño de la fuente*/
+    text-decoration: none; /*decoracion de texto= ninguna*/
+    border-bottom: rgb(231, 4, 117) 2px solid;
+}
+
+nav ul li a:hover{ /*hover es cuando el puntero esta sobre*/
+    color: rgb(248, 243, 245);
+}
+.fila{
+    width: 100%;
+
+}
+.col{
+    width: 45%;
+    display: inline-block;
+}
+.logo{
+    color: rgba(255, 0, 119, 0.808);
+}
+.uno{
+    background-color: black;
+}
+.h2{
+    color: white;
+}
+
+.mifoto{
+    border-radius: 50%;
+    width: 70%;
+    margin-top: 1em;
+}
+.prese{
+    color: white;
+}
+.col1{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 3%;
+}       
+.lugar1{
+    width: 300px;
+    border-radius: 50%;
+}
+.lugar2{
+    width: ;
+    border-radius: 50%;
+}
+.col-lugares{
+    padding-top: 1em;
+    width: 23%;
+    display: inline-block;
+
+}
+.dos{
+    background-color: black ;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.vivir{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+h3{
+    color: white;
+}
+footer{
+    background-color: gray;
+    height: 6em;
+    padding-top: 3em;
+}
+.colfam{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+.imgfamilia{
+    width: 400px;
+    border-radius: 50%;
+}
+.fami{
+    background-color: black;
+}
+.colfam1{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+.hobbies{
+    background-color: black;
+}
+.colhobbi{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5em;
+}
+.titulo{
+    color: white;
+    font-size: 2em;
+}
+.hobie1imagen{
+    width: 400px;
+}
+.hobie2imagen{
+    width: 400px;
+}
+.hobie3imagen{
+    width: 400px;
+}
+.colmasco{
+    margin-top: 1.5em;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.mascotas{
+    width: 200px;
+    border-radius: 70%;
+}
